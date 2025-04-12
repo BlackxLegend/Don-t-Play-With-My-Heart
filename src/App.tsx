@@ -8,7 +8,7 @@ function App() {
         {/* Album Art */}
         <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl ring-4 ring-purple-500/30">
           <img
-            src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/99/3b/bf993b79-7578-d44c-1897-536e5c23a4c8/5063710570183_cover.jpg/592x592bb.webp"
+            src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop"
             alt="Album Art"
             className="w-full h-full object-cover"
           />
@@ -67,6 +67,15 @@ function App() {
             className="flex items-center justify-center gap-3 w-full py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium transition-all hover:scale-105 hover:shadow-lg hover:shadow-blue-500/30"
           >
             <Music className="w-5 h-5" /> Deezer 🎶
+          </a>
+
+          <a
+            href="https://tidal.com/album/426789191/credits"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 w-full py-3 px-6 rounded-full bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-medium transition-all hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/30"
+          >
+            <Music className="w-5 h-5" /> Tidal 🌊
           </a>
         </div>
       </div>
