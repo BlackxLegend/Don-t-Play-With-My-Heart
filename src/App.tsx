@@ -8,7 +8,7 @@ function App() {
         {/* Album Art */}
         <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl ring-4 ring-purple-500/30">
           <img
-            src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop"
+            src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/99/3b/bf993b79-7578-d44c-1897-536e5c23a4c8/5063710570183_cover.jpg/592x592bb.webp"
             alt="Album Art"
             className="w-full h-full object-cover"
           />
